@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Glory', sans-serif;
+}
+.nav-bar{
+	background: transparent;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px;
+	top: 0;
+	z-index: 100;
+	position: sticky;
+}
+.logo a{
+	text-decoration: none;
+	float: left;
+	font-size: 50px;
+	color: #fff;
+	font-weight: bolder;
+	padding: 3px;
+}
+.menu{
+	float: right;
+}
+.menu ul li{
+	display: inline-flex;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	margin: 3px;
+	padding: 5px;
+	font-size: 20px;
+}
+.menu a::after{
+	content: '';
+	margin: auto;
+	height: 2px;
+	display: block;
+	background: lightblue;
+	width: 0%;
+}
+.menu a:hover::after{
+	transition: 0.5s;
+	width: 100%;
+}
+.welcome-part{
+	background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+}
+.wc-text{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+
+}
+.second-part{
+	background-color: rgb(204, 204, 255);
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+	width: 100%;
+	position: relative;
+}
+.back a{
+	text-decoration: none;
+	color: royalblue;
+	font-size: 25px;
+}
+.back a:hover{
+	color: orangered;
+}
+.count-st-text{
+	display: none;
+	padding: 20px;
+}
+.count-st-text h1{
+	text-align: center;
+	font-size: 50px;
+}
+.success{
+	color: green;
+}
+#count{
+	font-size: 50px;
+}
+.border-part{
+	background-color: rgb(102, 255, 153);
+	border: 5px rgb(102, 255, 102) solid;
+	padding: 10px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+button{
+	font-size: 20px;
+	padding: 5px;
+	font-weight: bold;
+	background: lightblue;
+}
+button:hover{
+	background: royalblue;
+	color: #fff;
+}
+
